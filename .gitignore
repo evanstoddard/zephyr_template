@@ -1,0 +1,6 @@
+.venv
+.west
+modules
+/zephyr
+build
+build_sim
