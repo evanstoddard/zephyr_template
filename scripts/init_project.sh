@@ -12,6 +12,8 @@ function initialize_project() {
         echo "Initializing project..."
         west init -l ${g_PROJECT_DIR}
     fi
+
+    pip install -r ${g_ROOT_DIR}/zephyr/scripts/requirements.txt
 }
 
 function run_west_update() {
